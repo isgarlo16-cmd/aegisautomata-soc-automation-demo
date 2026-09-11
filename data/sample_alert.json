@@ -1,0 +1,19 @@
+{
+  "id": "SENTINEL-2026-00042",
+  "severity": "high",
+  "title": "Suspicious PowerShell with outbound connection",
+  "source": "Microsoft Sentinel",
+  "description": "Endpoint launched encoded PowerShell and contacted a suspicious domain.",
+  "host": "WS-FIN-07",
+  "user": "analyst.demo",
+  "process": {
+    "name": "powershell.exe",
+    "command_line": "powershell.exe -enc <redacted-demo-payload>",
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "network": {
+    "src_ip": "10.10.20.44",
+    "dst_ip": "203.0.113.66",
+    "domain": "update-check.example.net"
+  }
+}
