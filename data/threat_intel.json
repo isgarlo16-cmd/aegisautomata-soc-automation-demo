@@ -1,0 +1,26 @@
+{
+  "ipv4": {
+    "203.0.113.66": {
+      "malicious": true,
+      "confidence": 92,
+      "source": "Aegis Demo Threat Intel",
+      "tags": ["c2", "demo"]
+    }
+  },
+  "domain": {
+    "update-check.example.net": {
+      "malicious": true,
+      "confidence": 88,
+      "source": "Aegis Demo Threat Intel",
+      "tags": ["phishing", "c2", "demo"]
+    }
+  },
+  "sha256": {
+    "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa": {
+      "malicious": true,
+      "confidence": 95,
+      "source": "Aegis Demo Malware Feed",
+      "tags": ["loader", "demo"]
+    }
+  }
+}
