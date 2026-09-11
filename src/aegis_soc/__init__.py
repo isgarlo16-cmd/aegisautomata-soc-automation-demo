@@ -1,0 +1,1 @@
+"""AegisAutomata SOC automation demo."""
